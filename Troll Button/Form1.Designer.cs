@@ -59,7 +59,7 @@
             Net.TabStop = false;
             Net.Text = "Net";
             Net.UseVisualStyleBackColor = false;
-            Net.Click += Net_Click;
+            Net.MouseEnter += Net_MouseEnter;
             // 
             // label1
             // 
@@ -71,7 +71,6 @@
             label1.Size = new Size(588, 32);
             label1.TabIndex = 1;
             label1.Text = "Vi xotite ispravit mne ocenku na ekzamene do 12?";
-            label1.Click += label1_Click;
             // 
             // Form1
             // 
